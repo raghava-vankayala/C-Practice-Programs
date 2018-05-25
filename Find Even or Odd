@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("enter any number to find Even or Odd:");
+    scanf("%d",&n);
+    
+    if(n%2==0)
+    printf("It is Even Number");
+    else
+    printf("It is Odd number");
+}
